@@ -86,8 +86,22 @@ $input-select-padding-top: 0 !default;
 $input-select-icon-color: $input-border !default;
 $input-select-icon-focus-color: $input-border-focus !default;
 
+$input-select-danger-icon-color: $state-danger-border !default;
+$input-select-danger-icon-focus-color: darken($input-select-danger-icon-color, 10%) !default;
+$input-select-success-icon-color: $state-success-border !default;
+$input-select-success-icon-focus-color: darken($input-select-success-icon-color, 10%) !default;
+$input-select-warning-icon-color: $state-warning-border !default;
+$input-select-warning-icon-focus-color: darken($input-select-warning-icon-color, 10%) !default;
+
 $input-select-icon: lx-icon(caret-double-l, $input-select-icon-color) !default;
 $input-select-icon-focus: lx-icon(caret-double-l, $input-select-icon-focus-color) !default;
+
+$input-select-danger-icon: lx-icon(caret-double-l, $input-select-danger-icon-color) !default;
+$input-select-danger-icon-focus: lx-icon(caret-double-l, $input-select-danger-icon-focus-color) !default;
+$input-select-success-icon: lx-icon(caret-double-l, $input-select-success-icon-color) !default;
+$input-select-success-icon-focus: lx-icon(caret-double-l, $input-select-success-icon-focus-color) !default;
+$input-select-warning-icon: lx-icon(caret-double-l, $input-select-warning-icon-color) !default;
+$input-select-warning-icon-focus: lx-icon(caret-double-l, $input-select-warning-icon-focus-color) !default;
 
 // Legend
 

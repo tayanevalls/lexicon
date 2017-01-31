@@ -18,8 +18,15 @@
 
 	.has-success {
 		select.form-control {
-			background-image: lx-icon(caret-double-l, $state-success-border);
+			background-image: $input-select-success-icon;
 			background-image: none \9;
+
+			&:focus {
+				@if ($input-select-success-icon-focus != null) {
+					background-image: $input-select-success-icon-focus;
+					background-image: none \9;
+				}
+			}
 		}
 
 		.checkbox label,
@@ -34,8 +41,15 @@
 
 	.has-warning {
 		select.form-control {
-			background-image: lx-icon(caret-double-l, $state-warning-border);
+			background-image: $input-select-warning-icon;
 			background-image: none \9;
+
+			&:focus {
+				@if ($input-select-warning-icon-focus != null) {
+					background-image: $input-select-warning-icon-focus;
+					background-image: none \9;
+				}
+			}
 		}
 
 		.checkbox label,
@@ -50,8 +64,15 @@
 
 	.has-error {
 		select.form-control {
-			background-image: lx-icon(caret-double-l, $state-danger-border);
+			background-image: $input-select-danger-icon;
 			background-image: none \9;
+
+			&:focus {
+				@if ($input-select-danger-icon-focus != null) {
+					background-image: $input-select-danger-icon-focus;
+					background-image: none \9;
+				}
+			}
 		}
 
 		.checkbox label,
